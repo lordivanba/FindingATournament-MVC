@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TorneoModelStoreContainer" CdmEntityContainer="Entities2">
+    <EntitySetMapping Name="torneos">
+      <EntityTypeMapping TypeName="TorneoModel.torneo">
+        <MappingFragment StoreEntitySet="torneo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Disciplina" ColumnName="Disciplina" />
+          <ScalarProperty Name="NumeroEquipos" ColumnName="NumeroEquipos" />
+          <ScalarProperty Name="CostoInscripcion" ColumnName="CostoInscripcion" />
+          <ScalarProperty Name="NumeroRondas" ColumnName="NumeroRondas" />
+          <ScalarProperty Name="DispoinibilidadLugares" ColumnName="DispoinibilidadLugares" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
